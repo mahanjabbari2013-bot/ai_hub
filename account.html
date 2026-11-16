@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+
+<html class="dark" dir="rtl" lang="fa"><head><title>حساب کاربری | AI Hub</title><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_dashboard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "error": "#ffb4ab", "surface-dim": "#0e1321", "secondary-fixed": "#acedff", "on-tertiary-fixed": "#23005c", "on-tertiary-container": "#340080", "on-secondary": "#003640", "surface-container-highest": "#303444", "on-secondary-container": "#00424e", "primary-container": "#4d8eff", "on-tertiary": "#3c0091", "tertiary": "#d0bcff", "surface-variant": "#303444", "primary-fixed-dim": "#adc6ff", "tertiary-fixed": "#e9ddff", "on-error": "#690005", "tertiary-fixed-dim": "#d0bcff", "outline": "#8c909f", "surface-container-lowest": "#090e1c", "on-secondary-fixed": "#001f26", "on-error-container": "#ffdad6", "on-surface": "#dee2f6", "tertiary-container": "#a078ff", "inverse-primary": "#005ac2", "surface-tint": "#adc6ff", "primary-fixed": "#d8e2ff", "secondary": "#4cd7f6", "on-surface-variant": "#c2c6d6", "outline-variant": "#424754", "on-background": "#dee2f6", "background": "#0e1321", "inverse-surface": "#dee2f6", "surface-bright": "#343948", "on-secondary-fixed-variant": "#004e5c", "error-container": "#93000a", "on-primary-fixed": "#001a42", "surface-container": "#1a1f2e", "secondary-fixed-dim": "#4cd7f6", "primary": "#adc6ff", "on-primary-fixed-variant": "#004395", "inverse-on-surface": "#2b303f", "secondary-container": "#03b5d3", "on-tertiary-fixed-variant": "#5516be", "surface": "#0e1321", "on-primary": "#002e6a", "surface-container-low": "#161b2a", "on-primary-container": "#00285d", "surface-container-high": "#252a39" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-md": "1rem", "space-sm": "0.5rem", "gutter-sm": "1rem", "space-xs": "0.25rem", "margin-sm": "1rem", "gutter": "1.5rem", "margin": "2rem", "space-xl": "2.5rem", "space-lg": "1.5rem" }, "fontFamily": { "label-lg": [ "Inter" ], "headline-xl": [ "Inter" ], "headline-sm": [ "Inter" ], "headline-lg-mobile": [ "Inter" ], "body-sm": [ "Inter" ], "headline-xl-mobile": [ "Inter" ], "label-sm": [ "Inter" ], "headline-md": [ "Inter" ], "body-md": [ "Inter" ], "headline-lg": [ "Inter" ], "body-lg": [ "Inter" ], "label-md": [ "Inter" ] }, "fontSize": { "label-lg": [ "14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" } ], "headline-xl": [ "44px", { "lineHeight": "54px", "letterSpacing": "-0.025em", "fontWeight": "800" } ], "headline-sm": [ "20px", { "lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "600" } ], "headline-lg-mobile": [ "24px", { "lineHeight": "32px", "letterSpacing": "-0.015em", "fontWeight": "700" } ], "body-sm": [ "12px", { "lineHeight": "18px", "fontWeight": "400" } ], "headline-xl-mobile": [ "30px", { "lineHeight": "38px", "letterSpacing": "-0.02em", "fontWeight": "800" } ], "label-sm": [ "10px", { "lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "700" } ], "headline-md": [ "24px", { "lineHeight": "32px", "letterSpacing": "-0.015em", "fontWeight": "600" } ], "body-md": [ "14px", { "lineHeight": "22px", "fontWeight": "400" } ], "headline-lg": [ "32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700" } ], "body-lg": [ "16px", { "lineHeight": "26px", "fontWeight": "400" } ], "label-md": [ "12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" } ] } } } };</script></head><body class="bg-background font-body-md text-body-md text-on-surface antialiased selection:bg-primary-container selection:text-on-primary-container"><nav class="site-global-nav"><a class="brand" href="index.html">✦ AI HUB</a><a class="navlink" href="index.html">خانه</a><a class="navlink" href="platform.html">پلتفرم</a><a class="navlink" href="ai-models.html">مدل‌های هوش مصنوعی</a><a class="navlink" href="compare.html">مقایسه مدل‌ها</a><a class="navlink" href="polls.html">نظرسنجی‌ها</a><a class="navlink" href="gpt-4o.html">GPT‑4o</a><a class="navlink" href="claude-sonnet.html">Claude Sonnet</a><a class="navlink" href="account.html">حساب کاربری</a><a class="navlink" href="settings.html">تنظیمات</a><a class="navlink" href="login.html">ورود</a><a class="navlink" href="register.html">ثبت‌نام</a><a class="navlink" href="password-recovery.html">بازیابی رمز</a></nav><aside class="hidden lg:flex fixed inset-y-0 end-0 w-72 bg-surface-container-low/90 backdrop-blur-2xl z-50 flex-col justify-between py-space-lg shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="flex flex-col gap-space-lg px-space-md"><div class="flex items-center gap-space-sm px-space-sm"><img alt="AI HUB Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/ALJJyrB61KH-UgaRChMakdSlxSGTfJh810VaRCZEWvukl54yCrUDTlXvMGKiCK1jTrW9ElP5eZYpWCfKdrtTWWEuxMHMetipYnWcxTPF79UBUHakB2qObZrt6VZmnvPG6YVDcbSnvpkzDxhAiwopv0qgllFYpFovWZdKvRw_l33_aKZyeqato_qSTGUtdU2mqDOlSk1M5Hn5TqAnSYik8wls01lTLKOB0VfAckkUeei-CpXNzg"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary tracking-tight">AI HUB</span><span class="font-label-sm text-label-sm text-secondary uppercase">سامانه هوش مصنوعی</span></div></div><nav class="flex flex-col gap-space-xs" data-active-classes="bg-primary-container text-on-primary-container shadow-sm font-label-lg"><a class="flex items-center gap-space-md px-space-md py-space-sm rounded-xl font-label-md text-label-md text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="home" href="#"><span class="material-symbols-outlined text-[22px]">home</span><span>خانه</span></a><a class="flex items-center gap-space-md px-space-md py-space-sm rounded-xl font-label-md text-label-md text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="ai-models" href="#"><span class="material-symbols-outlined text-[22px]">smart_toy</span><span>مدل‌های هوش مصنوعی</span></a><a class="flex items-center gap-space-md px-space-md py-space-sm rounded-xl font-label-md text-label-md text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="compare-ai" href="#"><span class="material-symbols-outlined text-[22px]">compare_arrows</span><span>مقایسه هوش مصنوعی</span></a><a class="flex items-center gap-space-md px-space-md py-space-sm rounded-xl font-label-md text-label-md text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="polls" href="#"><span class="material-symbols-outlined text-[22px]">poll</span><span>نظرسنجی‌ها</span></a><a class="flex items-center gap-space-md px-space-md py-space-sm rounded-xl font-label-md text-label-md text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="favorites" href="#"><span class="material-symbols-outlined text-[22px]">favorite</span><span>علاقه‌مندی‌ها</span></a><a aria-current="page" class="flex items-center gap-space-md px-space-md py-space-sm rounded-xl transition-colors bg-primary-container text-on-primary-container shadow-sm font-label-lg" data-path="my-account" href="#"><span class="material-symbols-outlined text-[22px]">person</span><span>حساب کاربری من</span></a><a class="flex items-center gap-space-md px-space-md py-space-sm rounded-xl font-label-md text-label-md text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="settings" href="#"><span class="material-symbols-outlined text-[22px]">settings</span><span>تنظیمات</span></a></nav></div><div class="px-space-md"><a class="flex items-center gap-space-md px-space-md py-space-sm rounded-xl font-label-md text-label-md text-error hover:bg-error-container hover:text-on-error transition-colors" data-path="logout" href="#"><span class="material-symbols-outlined text-[22px]">logout</span><span>خروج</span></a></div></aside><div class="lg:pe-72 flex flex-col min-h-screen"><header class="fixed top-0 start-0 end-0 lg:end-72 z-40 bg-surface-container-lowest/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 w-full px-margin flex items-center justify-between"><div class="flex items-center gap-space-md"><a class="inline-flex items-center gap-space-xs px-space-sm py-space-xs rounded-lg font-label-md text-label-md text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" href="#"><span class="material-symbols-outlined text-[18px] rtl:rotate-180">arrow_back</span><span>بازگشت</span></a><div class="hidden sm:flex items-center gap-space-xs px-space-sm py-space-xs rounded-full bg-surface-container"><button class="px-space-sm py-0.5 rounded-full font-label-sm text-label-sm bg-primary-container text-on-primary-container transition-colors" type="button">فارسی</button><button class="px-space-sm py-0.5 rounded-full font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface transition-colors" type="button">EN</button></div></div><div class="flex items-center gap-space-md"><button aria-label="Theme Toggle" class="w-9 h-9 flex items-center justify-center rounded-xl bg-surface-container text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined text-[20px]">dark_mode</span></button><button aria-label="Notifications" class="relative w-9 h-9 flex items-center justify-center rounded-xl bg-surface-container text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined text-[20px]">notifications</span><span class="absolute top-1.5 end-1.5 w-2 h-2 rounded-full bg-secondary ring-2 ring-surface-container-lowest"></span></button><div class="flex items-center gap-space-sm pe-space-xs"><div class="relative flex-shrink-0"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD2I1oKiXONg_8_7KOaqmR4GXbMZYocLXNfZCV4ny5Z-cIxMaHn_Vd9-AgYtOxJmX21YErVuA0mKLWVp5k8zq-_p_iiMgI6rpZkr3e9Wem26epMDAnlseN_9U3H-4HzXmuDfz2ykt6oCqSAb0AWea81iSMlf209nO-ogRh8ZihKa4BDFiutVJ-npWmYhn8hvGNUNAFQ5HjnXHy2o8wXVPijkziKuqHI4AkP2HyAQQHj"/><span class="absolute bottom-0 start-0 w-2.5 h-2.5 rounded-full bg-secondary-container ring-2 ring-surface-container-lowest"></span></div><div class="hidden md:flex flex-col text-start"><span class="font-label-md text-label-md text-on-surface">آرش دهقان</span><span class="font-label-sm text-label-sm text-secondary">مدیر سیستم</span></div></div></div></div></header><main class="w-full pt-16 pb-20 lg:pb-space-xl bg-background"><div class="flex flex-col w-full px-margin-sm lg:px-margin py-space-md gap-space-lg">
+<!-- Breadcrumbs & Quick Return Bar -->
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-sm text-on-surface-variant font-label-md text-label-md">
+<a class="inline-flex items-center gap-space-xs px-space-md py-space-xs rounded-xl bg-surface-container-low hover:bg-surface-container text-on-surface hover:text-primary transition-all duration-200" href="#">
+<span class="material-symbols-outlined text-[18px] rtl:rotate-180">arrow_back</span>
+<span class="font-label-md text-label-md">بازگشت</span>
+</a>
+<span class="text-outline-variant">/</span>
+<span class="font-label-md text-label-md text-primary">حساب کاربری و علاقه‌مندی‌ها</span>
+</div>
+<div class="flex items-center gap-space-xs text-on-surface-variant font-label-sm text-label-sm">
+<span class="w-2 h-2 rounded-full bg-secondary-container"></span>
+<span>وضعیت اشتراک: سازمانی (فعال)</span>
+</div>
+</div>
+<!-- Profile Telemetry Console / Hero Overview -->
+<div class="relative overflow-hidden rounded-xl bg-surface-container-low/90 backdrop-blur-xl p-space-md lg:p-space-lg shadow-xl">
+<!-- Ambient photonic glow -->
+<div class="absolute -top-24 -start-24 w-80 h-80 rounded-full bg-primary-container/10 blur-3xl pointer-events-none"></div>
+<div class="absolute -bottom-24 -end-24 w-80 h-80 rounded-full bg-secondary-container/10 blur-3xl pointer-events-none"></div>
+<div class="relative z-10 flex flex-col lg:flex-row items-start lg:items-center justify-between gap-space-lg">
+<div class="flex flex-col sm:flex-row items-start sm:items-center gap-space-md">
+<!-- Avatar Section with Upload overlay -->
+<div class="relative group">
+<div class="w-24 h-24 lg:w-28 lg:h-28 rounded-xl overflow-hidden bg-surface-container shadow-md">
+<img alt="آرش دهقان" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD2I1oKiXONg_8_7KOaqmR4GXbMZYocLXNfZCV4ny5Z-cIxMaHn_Vd9-AgYtOxJmX21YErVuA0mKLWVp5k8zq-_p_iiMgI6rpZkr3e9Wem26epMDAnlseN_9U3H-4HzXmuDfz2ykt6oCqSAb0AWea81iSMlf209nO-ogRh8ZihKa4BDFiutVJ-npWmYhn8hvGNUNAFQ5HjnXHy2o8wXVPijkziKuqHI4AkP2HyAQQHj"/>
+</div>
+<button class="absolute inset-0 bg-surface-container-lowest/70 backdrop-blur-xs opacity-0 group-hover:opacity-100 transition-opacity flex flex-col items-center justify-center gap-1 text-primary font-label-sm text-label-sm" title="تغییر تصویر پروفایل" type="button">
+<span class="material-symbols-outlined text-[22px]">photo_camera</span>
+<span>تغییر تصویر</span>
+</button>
+<span class="absolute -bottom-1 -start-1 px-2 py-0.5 rounded-full bg-secondary-container text-on-secondary font-label-sm text-label-sm shadow-sm">
+            Pro
+          </span>
+</div>
+<!-- Identity Details -->
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-sm flex-wrap">
+<h1 class="font-headline-md text-headline-md text-on-surface">آرش دهقان</h1>
+<button class="w-7 h-7 flex items-center justify-center rounded-lg bg-surface-container hover:bg-surface-container-high text-on-surface-variant hover:text-primary transition-colors" title="ویرایش نام کاربری" type="button">
+<span class="material-symbols-outlined text-[16px]">edit</span>
+</button>
+<span class="px-space-sm py-0.5 rounded-full bg-surface-container-highest font-label-sm text-label-sm text-secondary">@arash_dehghan</span>
+</div>
+<div class="flex items-center gap-space-xs text-on-surface-variant font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[16px] text-outline">verified_user</span>
+<span>تاریخ عضویت: ۱۵ فروردین ۱۴۰۳</span>
+<span class="text-outline-variant">•</span>
+<span class="text-secondary font-label-sm text-label-sm">توسعه‌دهنده ارشد AI</span>
+</div>
+<!-- Quick stats badges -->
+<div class="flex items-center gap-space-sm flex-wrap mt-space-xs">
+<div class="flex items-center gap-1.5 px-space-sm py-1 rounded-lg bg-surface-container text-on-surface">
+<span class="material-symbols-outlined text-[16px] text-error" style="font-variation-settings: 'FILL' 1;">favorite</span>
+<span class="font-label-sm text-label-sm"><strong>۶</strong> مدل ذخیره شده</span>
+</div>
+<div class="flex items-center gap-1.5 px-space-sm py-1 rounded-lg bg-surface-container text-on-surface">
+<span class="material-symbols-outlined text-[16px] text-primary">rate_review</span>
+<span class="font-label-sm text-label-sm"><strong>۱۲</strong> نظر ثبت‌شده</span>
+</div>
+<div class="flex items-center gap-1.5 px-space-sm py-1 rounded-lg bg-surface-container text-on-surface">
+<span class="material-symbols-outlined text-[16px] text-secondary">how_to_vote</span>
+<span class="font-label-sm text-label-sm"><strong>۳</strong> نظرسنجی فعال</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Quick Action Controls -->
+<div class="flex items-center gap-space-sm w-full lg:w-auto justify-end">
+<button class="px-space-md py-space-sm rounded-xl bg-surface-container-high hover:bg-surface-bright text-on-surface font-label-md text-label-md transition-colors flex items-center gap-space-xs" onclick="document.getElementById('password-modal').classList.remove('hidden')" type="button">
+<span class="material-symbols-outlined text-[18px]">lock_reset</span>
+<span>امنیت حساب</span>
+</button>
+<button class="px-space-md py-space-sm rounded-xl bg-error-container/40 hover:bg-error-container text-error font-label-md text-label-md transition-colors flex items-center gap-space-xs" onclick="document.getElementById('logout-modal').classList.remove('hidden')" type="button">
+<span class="material-symbols-outlined text-[18px]">logout</span>
+<span>خروج</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Telemetry Filter / Navigation Tabs -->
+<div class="flex items-center gap-space-xs overflow-x-auto pb-space-xs" id="dashboard-tabs">
+<button class="tab-btn active px-space-md py-space-sm rounded-xl font-label-md text-label-md transition-all flex items-center gap-space-xs bg-primary-container text-on-primary-container shadow-sm" data-tab="tab-favorites" type="button">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">favorite</span>
+<span>علاقه‌مندی‌های من</span>
+<span class="px-1.5 py-0.2 rounded-full bg-on-primary-container/20 text-on-primary-container font-label-sm text-label-sm">۶</span>
+</button>
+<button class="tab-btn px-space-md py-space-sm rounded-xl font-label-md text-label-md transition-all flex items-center gap-space-xs bg-surface-container text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high" data-tab="tab-reviews" type="button">
+<span class="material-symbols-outlined text-[18px]">reviews</span>
+<span>نظرات و نقدهای من</span>
+<span class="px-1.5 py-0.2 rounded-full bg-surface-container-highest font-label-sm text-label-sm">۱۲</span>
+</button>
+<button class="tab-btn px-space-md py-space-sm rounded-xl font-label-md text-label-md transition-all flex items-center gap-space-xs bg-surface-container text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high" data-tab="tab-polls" type="button">
+<span class="material-symbols-outlined text-[18px]">poll</span>
+<span>نظرسنجی‌های من</span>
+<span class="px-1.5 py-0.2 rounded-full bg-surface-container-highest font-label-sm text-label-sm">۳</span>
+</button>
+<button class="tab-btn px-space-md py-space-sm rounded-xl font-label-md text-label-md transition-all flex items-center gap-space-xs bg-surface-container text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high" data-tab="tab-security" type="button">
+<span class="material-symbols-outlined text-[18px]">security</span>
+<span>امنیت و تغییر رمز عبور</span>
+</button>
+</div>
+<!-- TAB PANES -->
+<div class="w-full flex flex-col gap-space-lg">
+<!-- 1. FAVORITES PANEL -->
+<div class="tab-pane flex flex-col gap-space-md" id="tab-favorites">
+<!-- Section Header with Meta filters -->
+<div class="flex items-center justify-between flex-wrap gap-space-sm">
+<div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">مدل‌های ذخیره شده در دیده‌بان</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">مقایسه لحظه‌ای و رصد تغییرات بنچمارک‌های هوش مصنوعی مورد علاقه شما</p>
+</div>
+<div class="flex items-center gap-space-xs">
+<button class="px-space-sm py-1 rounded-lg bg-surface-container text-primary font-label-sm text-label-sm" type="button">همه دسته‌ها</button>
+<button class="px-space-sm py-1 rounded-lg bg-surface-container-low hover:bg-surface-container text-on-surface-variant font-label-sm text-label-sm" type="button">LLM</button>
+<button class="px-space-sm py-1 rounded-lg bg-surface-container-low hover:bg-surface-container text-on-surface-variant font-label-sm text-label-sm" type="button">تولید تصویر</button>
+<button class="px-space-sm py-1 rounded-lg bg-surface-container-low hover:bg-surface-container text-on-surface-variant font-label-sm text-label-sm" type="button">صوت و گفتار</button>
+</div>
+</div>
+<!-- Models Grid: 6 AI Models -->
+<div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-space-md">
+<!-- Card 1: Claude 3.5 Sonnet -->
+<div class="model-card group relative flex flex-col justify-between p-space-md rounded-xl bg-surface-container-low/85 backdrop-blur-md hover:bg-surface-container transition-all duration-300 shadow-md">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-start justify-between">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[24px]">terminal</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface">Claude 3.5 Sonnet</span>
+<span class="font-label-sm text-label-sm text-secondary">Anthropic</span>
+</div>
+</div>
+<button class="w-8 h-8 rounded-lg bg-surface-container-highest hover:bg-error-container text-error transition-colors flex items-center justify-center" onclick="this.closest('.model-card').remove()" title="حذف از علاقه‌مندی‌ها" type="button">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">favorite</span>
+</button>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+              برترین مدل منطقی، تسلط بی‌نظیر بر کدنویسی فرانت‌اند، درک تصویر چندوجهی و پشتیبانی کامل نگارش فارسی روان.
+            </p>
+<!-- Metrics bar -->
+<div class="flex flex-col gap-1 p-space-xs rounded-lg bg-surface-container-lowest/60">
+<div class="flex justify-between font-label-sm text-label-sm text-on-surface-variant">
+<span>امتیاز MMLU</span>
+<span class="text-secondary font-bold">۸۸.۷٪</span>
+</div>
+<div class="w-full h-1.5 rounded-full bg-surface-container-highest overflow-hidden">
+<div class="h-full bg-secondary rounded-full" style="width: 88.7%;"></div>
+</div>
+<div class="flex justify-between font-label-sm text-label-sm text-on-surface-variant mt-0.5">
+<span>پنجره متنی</span>
+<span class="text-primary">200K توکن</span>
+</div>
+</div>
+</div>
+<div class="flex items-center justify-between pt-space-sm mt-space-sm">
+<span class="inline-flex items-center gap-1 font-label-sm text-label-sm text-on-surface-variant">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+              پاسخ‌دهی آنی
+            </span>
+<button class="px-space-sm py-1 rounded-lg bg-surface-container-high hover:bg-primary hover:text-on-primary text-on-surface font-label-md text-label-md transition-colors flex items-center gap-1" type="button">
+<span>مشاهده مشخصات</span>
+<span class="material-symbols-outlined text-[16px] rtl:rotate-180">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Card 2: Google Gemini 1.5 Pro -->
+<div class="model-card group relative flex flex-col justify-between p-space-md rounded-xl bg-surface-container-low/85 backdrop-blur-md hover:bg-surface-container transition-all duration-300 shadow-md">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-start justify-between">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-xl bg-secondary/10 flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[24px]">hub</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface">Gemini 1.5 Pro</span>
+<span class="font-label-sm text-label-sm text-secondary">Google DeepMind</span>
+</div>
+</div>
+<button class="w-8 h-8 rounded-lg bg-surface-container-highest hover:bg-error-container text-error transition-colors flex items-center justify-center" onclick="this.closest('.model-card').remove()" title="حذف از علاقه‌مندی‌ها" type="button">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">favorite</span>
+</button>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+              پنجره زمینه رکوردشکن تا ۲ میلیون توکن و قابلیت بی‌همتا در واکاوی ویدیوهای طولانی و اسناد حجیم سازمانی.
+            </p>
+<!-- Metrics bar -->
+<div class="flex flex-col gap-1 p-space-xs rounded-lg bg-surface-container-lowest/60">
+<div class="flex justify-between font-label-sm text-label-sm text-on-surface-variant">
+<span>امتیاز MMLU</span>
+<span class="text-secondary font-bold">۸۵.۹٪</span>
+</div>
+<div class="w-full h-1.5 rounded-full bg-surface-container-highest overflow-hidden">
+<div class="h-full bg-secondary rounded-full" style="width: 85.9%;"></div>
+</div>
+<div class="flex justify-between font-label-sm text-label-sm text-on-surface-variant mt-0.5">
+<span>پنجره متنی</span>
+<span class="text-primary">2,000K توکن</span>
+</div>
+</div>
+</div>
+<div class="flex items-center justify-between pt-space-sm mt-space-sm">
+<span class="inline-flex items-center gap-1 font-label-sm text-label-sm text-on-surface-variant">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+              چندوجهی بومی
+            </span>
+<button class="px-space-sm py-1 rounded-lg bg-surface-container-high hover:bg-primary hover:text-on-primary text-on-surface font-label-md text-label-md transition-colors flex items-center gap-1" type="button">
+<span>مشاهده مشخصات</span>
+<span class="material-symbols-outlined text-[16px] rtl:rotate-180">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Card 3: DeepSeek-V3 -->
+<div class="model-card group relative flex flex-col justify-between p-space-md rounded-xl bg-surface-container-low/85 backdrop-blur-md hover:bg-surface-container transition-all duration-300 shadow-md">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-start justify-between">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-xl bg-tertiary/10 flex items-center justify-center text-tertiary">
+<span class="material-symbols-outlined text-[24px]">psychology</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface">DeepSeek-V3</span>
+<span class="font-label-sm text-label-sm text-tertiary">DeepSeek AI</span>
+</div>
+</div>
+<button class="w-8 h-8 rounded-lg bg-surface-container-highest hover:bg-error-container text-error transition-colors flex items-center justify-center" onclick="this.closest('.model-card').remove()" title="حذف از علاقه‌مندی‌ها" type="button">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">favorite</span>
+</button>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+              مدل متن‌باز قدرتمند با معماری تخصصی MoE و بازدهی استثنایی در استدلال ریاضیاتی و تولید کد مقرون‌به‌صرفه.
+            </p>
+<!-- Metrics bar -->
+<div class="flex flex-col gap-1 p-space-xs rounded-lg bg-surface-container-lowest/60">
+<div class="flex justify-between font-label-sm text-label-sm text-on-surface-variant">
+<span>امتیاز MMLU</span>
+<span class="text-tertiary font-bold">۸۸.۵٪</span>
+</div>
+<div class="w-full h-1.5 rounded-full bg-surface-container-highest overflow-hidden">
+<div class="h-full bg-tertiary rounded-full" style="width: 88.5%;"></div>
+</div>
+<div class="flex justify-between font-label-sm text-label-sm text-on-surface-variant mt-0.5">
+<span>معماری</span>
+<span class="text-primary">671B MoE</span>
+</div>
+</div>
+</div>
+<div class="flex items-center justify-between pt-space-sm mt-space-sm">
+<span class="inline-flex items-center gap-1 font-label-sm text-label-sm text-on-surface-variant">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary-container"></span>
+              متن‌باز
+            </span>
+<button class="px-space-sm py-1 rounded-lg bg-surface-container-high hover:bg-primary hover:text-on-primary text-on-surface font-label-md text-label-md transition-colors flex items-center gap-1" type="button">
+<span>مشاهده مشخصات</span>
+<span class="material-symbols-outlined text-[16px] rtl:rotate-180">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Card 4: Midjourney v6.1 -->
+<div class="model-card group relative flex flex-col justify-between p-space-md rounded-xl bg-surface-container-low/85 backdrop-blur-md hover:bg-surface-container transition-all duration-300 shadow-md">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-start justify-between">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-xl bg-primary-container/20 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[24px]">palette</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface">Midjourney v6.1</span>
+<span class="font-label-sm text-label-sm text-secondary">Midjourney Inc.</span>
+</div>
+</div>
+<button class="w-8 h-8 rounded-lg bg-surface-container-highest hover:bg-error-container text-error transition-colors flex items-center justify-center" onclick="this.closest('.model-card').remove()" title="حذف از علاقه‌مندی‌ها" type="button">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">favorite</span>
+</button>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+              برترین پلتفرم بصری برای خلق هنری، رندرینگ واقع‌گرایانه بافت چهره، بازتاب نور و دقت فزاینده در تایپوگرافی تصویری.
+            </p>
+<!-- Metrics bar -->
+<div class="flex flex-col gap-1 p-space-xs rounded-lg bg-surface-container-lowest/60">
+<div class="flex justify-between font-label-sm text-label-sm text-on-surface-variant">
+<span>رزولوشن خروجی</span>
+<span class="text-secondary font-bold">4K Native</span>
+</div>
+<div class="w-full h-1.5 rounded-full bg-surface-container-highest overflow-hidden">
+<div class="h-full bg-secondary rounded-full" style="width: 95%;"></div>
+</div>
+<div class="flex justify-between font-label-sm text-label-sm text-on-surface-variant mt-0.5">
+<span>دقت جزئیات</span>
+<span class="text-primary">نسخه ۶.۱ بهینه‌شده</span>
+</div>
+</div>
+</div>
+<div class="flex items-center justify-between pt-space-sm mt-space-sm">
+<span class="inline-flex items-center gap-1 font-label-sm text-label-sm text-on-surface-variant">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+              تولید تصویر
+            </span>
+<button class="px-space-sm py-1 rounded-lg bg-surface-container-high hover:bg-primary hover:text-on-primary text-on-surface font-label-md text-label-md transition-colors flex items-center gap-1" type="button">
+<span>مشاهده مشخصات</span>
+<span class="material-symbols-outlined text-[16px] rtl:rotate-180">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Card 5: Perplexity AI -->
+<div class="model-card group relative flex flex-col justify-between p-space-md rounded-xl bg-surface-container-low/85 backdrop-blur-md hover:bg-surface-container transition-all duration-300 shadow-md">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-start justify-between">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-xl bg-secondary-container/20 flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[24px]">travel_explore</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface">Perplexity AI</span>
+<span class="font-label-sm text-label-sm text-secondary">Perplexity Labs</span>
+</div>
+</div>
+<button class="w-8 h-8 rounded-lg bg-surface-container-highest hover:bg-error-container text-error transition-colors flex items-center justify-center" onclick="this.closest('.model-card').remove()" title="حذف از علاقه‌مندی‌ها" type="button">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">favorite</span>
+</button>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+              موتور جستجوی محاوره‌ای با استناد معتبر به منابع وب لحظه‌ای، فیلتر مقالات آکادمیک و ترکیب داده‌های پژوهشی.
+            </p>
+<!-- Metrics bar -->
+<div class="flex flex-col gap-1 p-space-xs rounded-lg bg-surface-container-lowest/60">
+<div class="flex justify-between font-label-sm text-label-sm text-on-surface-variant">
+<span>قابلیت رفرنس‌دهی</span>
+<span class="text-secondary font-bold">۱۰۰٪ معتبر</span>
+</div>
+<div class="w-full h-1.5 rounded-full bg-surface-container-highest overflow-hidden">
+<div class="h-full bg-secondary rounded-full" style="width: 100%;"></div>
+</div>
+<div class="flex justify-between font-label-sm text-label-sm text-on-surface-variant mt-0.5">
+<span>حالت جستجو</span>
+<span class="text-primary">Pro Search (Copilot)</span>
+</div>
+</div>
+</div>
+<div class="flex items-center justify-between pt-space-sm mt-space-sm">
+<span class="inline-flex items-center gap-1 font-label-sm text-label-sm text-on-surface-variant">
+<span class="w-1.5 h-1.5 rounded-full bg-primary-container"></span>
+              وب هوشمند
+            </span>
+<button class="px-space-sm py-1 rounded-lg bg-surface-container-high hover:bg-primary hover:text-on-primary text-on-surface font-label-md text-label-md transition-colors flex items-center gap-1" type="button">
+<span>مشاهده مشخصات</span>
+<span class="material-symbols-outlined text-[16px] rtl:rotate-180">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Card 6: ElevenLabs -->
+<div class="model-card group relative flex flex-col justify-between p-space-md rounded-xl bg-surface-container-low/85 backdrop-blur-md hover:bg-surface-container transition-all duration-300 shadow-md">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-start justify-between">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-xl bg-tertiary-container/20 flex items-center justify-center text-tertiary">
+<span class="material-symbols-outlined text-[24px]">graphic_eq</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface">ElevenLabs v2</span>
+<span class="font-label-sm text-label-sm text-tertiary">ElevenLabs</span>
+</div>
+</div>
+<button class="w-8 h-8 rounded-lg bg-surface-container-highest hover:bg-error-container text-error transition-colors flex items-center justify-center" onclick="this.closest('.model-card').remove()" title="حذف از علاقه‌مندی‌ها" type="button">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">favorite</span>
+</button>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+              استاندارد جهانی تبدیل متن به گفتار انسان‌نما، شبیه‌سازی دقیق لهجه‌ها، انتقال احساسات صوتی و دوبله خودکار ویدیو.
+            </p>
+<!-- Metrics bar -->
+<div class="flex flex-col gap-1 p-space-xs rounded-lg bg-surface-container-lowest/60">
+<div class="flex justify-between font-label-sm text-label-sm text-on-surface-variant">
+<span>تأخیر تولید (Latency)</span>
+<span class="text-tertiary font-bold">&lt; 150ms</span>
+</div>
+<div class="w-full h-1.5 rounded-full bg-surface-container-highest overflow-hidden">
+<div class="h-full bg-tertiary rounded-full" style="width: 92%;"></div>
+</div>
+<div class="flex justify-between font-label-sm text-label-sm text-on-surface-variant mt-0.5">
+<span>زبان‌ها</span>
+<span class="text-primary">۲۹ زبان زنده</span>
+</div>
+</div>
+</div>
+<div class="flex items-center justify-between pt-space-sm mt-space-sm">
+<span class="inline-flex items-center gap-1 font-label-sm text-label-sm text-on-surface-variant">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary"></span>
+              صوت و صدا
+            </span>
+<button class="px-space-sm py-1 rounded-lg bg-surface-container-high hover:bg-primary hover:text-on-primary text-on-surface font-label-md text-label-md transition-colors flex items-center gap-1" type="button">
+<span>مشاهده مشخصات</span>
+<span class="material-symbols-outlined text-[16px] rtl:rotate-180">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- 2. REVIEWS PANEL -->
+<div class="tab-pane hidden flex-col gap-space-md" id="tab-reviews">
+<div class="flex items-center justify-between">
+<div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">نظرات و تحلیل‌های نگاشته‌شده توسط شما</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">دیدگاه‌های تخصصی شما که به سایر پژوهشگران در انتخاب مدل مناسب کمک کرده است</p>
+</div>
+<span class="px-space-md py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-primary">۱۲ نقد منتشرشده</span>
+</div>
+<!-- User Review Card -->
+<div class="rounded-xl bg-surface-container-low/90 backdrop-blur-xl p-space-lg flex flex-col gap-space-md shadow-md">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm">
+<div class="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[28px]">terminal</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-space-xs">
+<span class="font-headline-sm text-headline-sm text-on-surface">Claude 3.5 Sonnet</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container font-label-sm text-label-sm text-secondary">LLM</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">ثبت شده در ۲۸ اردیبهشت ۱۴۰۳</span>
+</div>
+</div>
+<!-- Star Rating -->
+<div class="flex items-center gap-space-xs bg-surface-container px-space-md py-1.5 rounded-xl">
+<div class="flex text-secondary">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<span class="font-label-lg text-label-lg text-on-surface mr-1">۵ از ۵</span>
+</div>
+</div>
+<!-- Review Body -->
+<div class="p-space-md rounded-xl bg-surface-container-lowest/60 text-on-surface font-body-lg text-body-lg leading-relaxed">
+          «درک فوق‌العاده از برنامه‌نویسی React و نگارش روان فارسی. در پروژه‌های پیچیده معماری Frontend و تست‌نویسی، کدهای بدون نقصی ارائه داد و از نظر پایداری پاسخ و رعایت گرامر زبان فارسی نسبت به GPT-4o یک سر و گردن بالاتر عمل می‌کند.»
+        </div>
+<!-- Interactive Stats & Action buttons -->
+<div class="flex items-center justify-between pt-space-xs flex-wrap gap-space-sm">
+<div class="flex items-center gap-space-md text-on-surface-variant font-label-sm text-label-sm">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-secondary">thumb_up</span>
+              ۴۲ کاربر این نظر را مفید دانستند
+            </span>
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">visibility</span>
+              ۸۵۰ بازدید
+            </span>
+</div>
+<div class="flex items-center gap-space-xs">
+<button class="px-space-md py-1.5 rounded-lg bg-surface-container hover:bg-surface-container-high text-on-surface font-label-md text-label-md transition-colors flex items-center gap-1" type="button">
+<span class="material-symbols-outlined text-[16px]">edit</span>
+<span>ویرایش نظر</span>
+</button>
+<button class="px-space-md py-1.5 rounded-lg bg-error-container/30 hover:bg-error-container text-error font-label-md text-label-md transition-colors flex items-center gap-1" type="button">
+<span class="material-symbols-outlined text-[16px]">delete</span>
+<span>حذف نظر</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- 3. POLLS PANEL -->
+<div class="tab-pane hidden flex-col gap-space-md" id="tab-polls">
+<div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">مشارکت در نظرسنجی‌های جامعه هوش مصنوعی</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">رأی‌های ثبت شده و نظرسنجی‌هایی که شما در آن‌ها مشارکت داشته‌اید</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<!-- Poll Card 1 -->
+<div class="p-space-md rounded-xl bg-surface-container-low/90 backdrop-blur-xl flex flex-col justify-between gap-space-md shadow-md">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="px-2 py-0.5 rounded-full bg-secondary-container/20 text-secondary font-label-sm text-label-sm">نظرسنجی هفتگی</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">پایان در ۲ روز</span>
+</div>
+<h3 class="font-label-lg text-label-lg text-on-surface mt-1">بهترین مدل برای کدنویسی فول‌استک در سال ۲۰۲۵ کدام است؟</h3>
+<p class="font-body-sm text-body-sm text-secondary">رأی شما: Claude 3.5 Sonnet (ثبت شده)</p>
+</div>
+<div class="flex flex-col gap-2">
+<div class="flex flex-col gap-1">
+<div class="flex justify-between font-label-sm text-label-sm">
+<span class="text-on-surface">Claude 3.5 Sonnet</span>
+<span class="text-primary font-bold">۶۴٪</span>
+</div>
+<div class="w-full h-2 rounded-full bg-surface-container-highest overflow-hidden">
+<div class="h-full bg-primary rounded-full" style="width: 64%;"></div>
+</div>
+</div>
+<div class="flex flex-col gap-1">
+<div class="flex justify-between font-label-sm text-label-sm">
+<span class="text-on-surface">GPT-4o</span>
+<span class="text-outline font-bold">۲۶٪</span>
+</div>
+<div class="w-full h-2 rounded-full bg-surface-container-highest overflow-hidden">
+<div class="h-full bg-surface-bright rounded-full" style="width: 26%;"></div>
+</div>
+</div>
+</div>
+</div>
+<!-- Poll Card 2 -->
+<div class="p-space-md rounded-xl bg-surface-container-low/90 backdrop-blur-xl flex flex-col justify-between gap-space-md shadow-md">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="px-2 py-0.5 rounded-full bg-primary-container/20 text-primary font-label-sm text-label-sm">نظرسنجی ویژه</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">پایان یافته</span>
+</div>
+<h3 class="font-label-lg text-label-lg text-on-surface mt-1">آیا مدل‌های محلی (Local AI) جایگزین APIهای ابری خواهند شد؟</h3>
+<p class="font-body-sm text-body-sm text-secondary">رأی شما: بله، برای داده‌های حساس</p>
+</div>
+<div class="flex flex-col gap-2">
+<div class="flex flex-col gap-1">
+<div class="flex justify-between font-label-sm text-label-sm">
+<span class="text-on-surface">بله، برای داده‌های حساس</span>
+<span class="text-secondary font-bold">۷۱٪</span>
+</div>
+<div class="w-full h-2 rounded-full bg-surface-container-highest overflow-hidden">
+<div class="h-full bg-secondary rounded-full" style="width: 71%;"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- 4. SECURITY & PASSWORD PANEL -->
+<div class="tab-pane hidden flex-col gap-space-md max-w-2xl" id="tab-security">
+<div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">امنیت و تغییر رمز عبور</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">برای ارتقای ضریب امنیت حساب خود، از رمزهای عبور حداقل ۱۲ کاراکتری شامل حروف، ارقام و نمادها استفاده کنید.</p>
+</div>
+<div class="p-space-lg rounded-xl bg-surface-container-low/90 backdrop-blur-xl flex flex-col gap-space-md shadow-md">
+<form class="flex flex-col gap-space-md" onsubmit="event.preventDefault(); alert('رمز عبور شما با موفقیت به‌روزرسانی شد.');">
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface" for="current-pwd">رمز عبور فعلی</label>
+<div class="relative">
+<input class="w-full px-space-md py-space-sm rounded-xl bg-surface-container text-on-surface font-body-md text-body-md focus:bg-surface-container-high focus:outline-none transition-colors" id="current-pwd" placeholder="••••••••••••" required="" type="password"/>
+<span class="material-symbols-outlined absolute end-3 top-2.5 text-[20px] text-outline cursor-pointer">visibility</span>
+</div>
+</div>
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface" for="new-pwd">رمز عبور جدید</label>
+<div class="relative">
+<input class="w-full px-space-md py-space-sm rounded-xl bg-surface-container text-on-surface font-body-md text-body-md focus:bg-surface-container-high focus:outline-none transition-colors" id="new-pwd" placeholder="حداقل ۱۲ کاراکتر پیچیده" required="" type="password"/>
+<span class="material-symbols-outlined absolute end-3 top-2.5 text-[20px] text-outline cursor-pointer">visibility</span>
+</div>
+</div>
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface" for="repeat-pwd">تکرار رمز عبور جدید</label>
+<div class="relative">
+<input class="w-full px-space-md py-space-sm rounded-xl bg-surface-container text-on-surface font-body-md text-body-md focus:bg-surface-container-high focus:outline-none transition-colors" id="repeat-pwd" placeholder="تکرار همان عبارت" required="" type="password"/>
+<span class="material-symbols-outlined absolute end-3 top-2.5 text-[20px] text-outline cursor-pointer">visibility</span>
+</div>
+</div>
+<div class="flex items-center gap-space-xs pt-space-xs">
+<span class="material-symbols-outlined text-[18px] text-secondary">shield</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">احراز هویت دو مرحله‌ای (2FA) برای حساب شما فعال است.</span>
+</div>
+<div class="flex justify-end pt-space-sm">
+<button class="px-space-lg py-space-sm rounded-xl bg-primary hover:bg-primary-fixed-dim text-on-primary font-label-lg text-label-lg transition-all shadow-md" type="submit">
+              به‌روزرسانی رمز عبور
+            </button>
+</div>
+</form>
+</div>
+</div>
+</div>
+<!-- PASSWORD MODAL OVERLAY (Quick Access) -->
+<div class="fixed inset-0 z-50 bg-surface-container-lowest/80 backdrop-blur-md hidden flex items-center justify-center p-space-md" id="password-modal">
+<div class="w-full max-w-lg p-space-lg rounded-xl bg-surface-container-low shadow-2xl flex flex-col gap-space-md relative">
+<div class="flex items-center justify-between">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">تغییر سریع رمز عبور</h3>
+<button class="w-8 h-8 rounded-lg bg-surface-container hover:bg-surface-container-high flex items-center justify-center text-on-surface-variant" onclick="document.getElementById('password-modal').classList.add('hidden')" type="button">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+</div>
+<div class="flex flex-col gap-space-sm">
+<div class="flex flex-col gap-1">
+<span class="font-label-md text-label-md text-on-surface">رمز عبور کنونی</span>
+<input class="px-space-md py-space-sm rounded-xl bg-surface-container text-on-surface font-body-md text-body-md" placeholder="••••••••" type="password"/>
+</div>
+<div class="flex flex-col gap-1">
+<span class="font-label-md text-label-md text-on-surface">رمز عبور نو</span>
+<input class="px-space-md py-space-sm rounded-xl bg-surface-container text-on-surface font-body-md text-body-md" placeholder="••••••••" type="password"/>
+</div>
+</div>
+<div class="flex items-center justify-end gap-space-sm pt-space-xs">
+<button class="px-space-md py-space-sm rounded-xl bg-surface-container text-on-surface font-label-md text-label-md" onclick="document.getElementById('password-modal').classList.add('hidden')" type="button">انصراف</button>
+<button class="px-space-md py-space-sm rounded-xl bg-primary text-on-primary font-label-md text-label-md" onclick="document.getElementById('password-modal').classList.add('hidden'); alert('تغییر یافت');" type="button">ثبت تغییرات</button>
+</div>
+</div>
+</div>
+<!-- LOGOUT CONFIRMATION MODAL -->
+<div class="fixed inset-0 z-50 bg-surface-container-lowest/80 backdrop-blur-md hidden flex items-center justify-center p-space-md" id="logout-modal">
+<div class="w-full max-w-md p-space-lg rounded-xl bg-surface-container-low shadow-2xl flex flex-col gap-space-md">
+<div class="w-12 h-12 rounded-xl bg-error-container/30 text-error flex items-center justify-center">
+<span class="material-symbols-outlined text-[28px]">logout</span>
+</div>
+<div class="flex flex-col gap-1">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">آیا از خروج از حساب کاربری اطمینان دارید؟</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">برای دسترسی مجدد به داشبورد، مدل‌های نشان‌شده و سابقه استعلام‌ها لازم است دوباره وارد شوید.</p>
+</div>
+<div class="flex items-center justify-end gap-space-sm pt-space-sm">
+<button class="px-space-md py-space-sm rounded-xl bg-surface-container hover:bg-surface-container-high text-on-surface font-label-md text-label-md transition-colors" onclick="document.getElementById('logout-modal').classList.add('hidden')" type="button">
+          انصراف و بازگشت
+        </button>
+<a class="px-space-md py-space-sm rounded-xl bg-error hover:bg-error/90 text-on-error font-label-md text-label-md transition-colors flex items-center gap-1" href="#">
+<span>تأیید و خروج</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+<!-- Vanilla JS for Tab Switching Interaction -->
+<script>
+  (function initDashboard() {
+    const tabButtons = document.querySelectorAll('#dashboard-tabs .tab-btn');
+    const tabPanes = document.querySelectorAll('.tab-pane');
+
+    tabButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const targetId = btn.getAttribute('data-tab');
+
+        // Reset all buttons
+        tabButtons.forEach(b => {
+          b.classList.remove('bg-primary-container', 'text-on-primary-container', 'shadow-sm');
+          b.classList.add('bg-surface-container', 'text-on-surface-variant');
+        });
+
+        // Activate clicked button
+        btn.classList.add('bg-primary-container', 'text-on-primary-container', 'shadow-sm');
+        btn.classList.remove('bg-surface-container', 'text-on-surface-variant');
+
+        // Toggle Tab Panes
+        tabPanes.forEach(pane => {
+          if (pane.id === targetId) {
+            pane.classList.remove('hidden');
+            pane.classList.add('flex');
+          } else {
+            pane.classList.add('hidden');
+            pane.classList.remove('flex');
+          }
+        });
+      });
+    });
+  })();
+</script></main></div><nav class="lg:hidden fixed bottom-0 inset-x-0 h-16 bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_-1px_8px_rgba(0,0,0,0.04)] z-50 flex items-center justify-around px-space-sm" data-active-classes="text-primary font-bold"><a class="flex flex-col items-center gap-0.5 text-on-surface-variant hover:text-on-surface transition-colors" data-path="home" href="#"><span class="material-symbols-outlined text-[20px]">home</span><span class="font-label-sm text-label-sm">خانه</span></a><a class="flex flex-col items-center gap-0.5 text-on-surface-variant hover:text-on-surface transition-colors" data-path="ai-models" href="#"><span class="material-symbols-outlined text-[20px]">smart_toy</span><span class="font-label-sm text-label-sm">مدل‌ها</span></a><a class="flex flex-col items-center gap-0.5 text-on-surface-variant hover:text-on-surface transition-colors" data-path="compare-ai" href="#"><span class="material-symbols-outlined text-[20px]">compare_arrows</span><span class="font-label-sm text-label-sm">مقایسه</span></a><a class="flex flex-col items-center gap-0.5 text-on-surface-variant hover:text-on-surface transition-colors" data-path="favorites" href="#"><span class="material-symbols-outlined text-[20px]">favorite</span><span class="font-label-sm text-label-sm">علاقه‌مندی</span></a><a aria-current="page" class="flex flex-col items-center gap-0.5 transition-colors text-primary font-bold" data-path="my-account" href="#"><span class="material-symbols-outlined text-[20px]">person</span><span class="font-label-sm text-label-sm">حساب</span></a></nav><footer style="padding:24px 16px;text-align:center;background:#090e1c;color:#9aa5bd;font:12px Inter,sans-serif;border-top:1px solid rgba(173,198,255,.15)"><div style="margin-bottom:10px">AI HUB · فهرست صفحات</div><a style="color:#adc6ff;text-decoration:none" href="index.html">خانه</a> · <a style="color:#adc6ff;text-decoration:none" href="platform.html">پلتفرم</a> · <a style="color:#adc6ff;text-decoration:none" href="ai-models.html">مدل‌های هوش مصنوعی</a> · <a style="color:#adc6ff;text-decoration:none" href="compare.html">مقایسه مدل‌ها</a> · <a style="color:#adc6ff;text-decoration:none" href="polls.html">نظرسنجی‌ها</a> · <a style="color:#adc6ff;text-decoration:none" href="gpt-4o.html">GPT‑4o</a> · <a style="color:#adc6ff;text-decoration:none" href="claude-sonnet.html">Claude Sonnet</a> · <a style="color:#adc6ff;text-decoration:none" href="account.html">حساب کاربری</a> · <a style="color:#adc6ff;text-decoration:none" href="settings.html">تنظیمات</a> · <a style="color:#adc6ff;text-decoration:none" href="login.html">ورود</a> · <a style="color:#adc6ff;text-decoration:none" href="register.html">ثبت‌نام</a> · <a style="color:#adc6ff;text-decoration:none" href="password-recovery.html">بازیابی رمز</a></footer></body></html>

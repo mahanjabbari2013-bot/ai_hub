@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+
+<html class="dark" dir="rtl" lang="fa"><head><title>ثبت‌نام | AI Hub</title><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_blank" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      "colors": {
+        "tertiary-fixed": "#e9ddff",
+        "on-primary-fixed-variant": "#004395",
+        "error-container": "#93000a",
+        "surface-tint": "#adc6ff",
+        "inverse-surface": "#dee2f6",
+        "outline": "#8c909f",
+        "on-tertiary-fixed-variant": "#5516be",
+        "surface-container-high": "#252a39",
+        "on-primary": "#002e6a",
+        "on-primary-fixed": "#001a42",
+        "surface-variant": "#303444",
+        "primary": "#adc6ff",
+        "on-secondary-fixed-variant": "#004e5c",
+        "surface-container": "#1a1f2e",
+        "inverse-primary": "#005ac2",
+        "tertiary": "#d0bcff",
+        "outline-variant": "#424754",
+        "tertiary-fixed-dim": "#d0bcff",
+        "error": "#ffb4ab",
+        "on-error-container": "#ffdad6",
+        "secondary-fixed-dim": "#4cd7f6",
+        "inverse-on-surface": "#2b303f",
+        "on-primary-container": "#00285d",
+        "tertiary-container": "#a078ff",
+        "secondary": "#4cd7f6",
+        "surface-dim": "#0e1321",
+        "primary-container": "#4d8eff",
+        "secondary-fixed": "#acedff",
+        "on-error": "#690005",
+        "on-secondary-container": "#00424e",
+        "on-secondary": "#003640",
+        "on-background": "#dee2f6",
+        "primary-fixed-dim": "#adc6ff",
+        "primary-fixed": "#d8e2ff",
+        "secondary-container": "#03b5d3",
+        "on-tertiary-container": "#340080",
+        "on-surface-variant": "#c2c6d6",
+        "on-secondary-fixed": "#001f26",
+        "surface": "#0e1321",
+        "on-surface": "#dee2f6",
+        "surface-bright": "#343948",
+        "surface-container-low": "#161b2a",
+        "surface-container-lowest": "#090e1c",
+        "surface-container-highest": "#303444",
+        "background": "#0e1321",
+        "on-tertiary": "#3c0091",
+        "on-tertiary-fixed": "#23005c"
+      },
+      "borderRadius": {
+        "DEFAULT": "0.25rem",
+        "lg": "0.5rem",
+        "xl": "0.75rem",
+        "full": "9999px"
+      },
+      "spacing": {
+        "margin": "2rem",
+        "gutter": "1.5rem",
+        "space-xs": "0.25rem",
+        "space-md": "1rem",
+        "space-sm": "0.5rem",
+        "gutter-sm": "1rem",
+        "space-xl": "2.5rem",
+        "space-lg": "1.5rem",
+        "margin-sm": "1rem"
+      },
+      "fontFamily": {
+        "headline-lg-mobile": ["Inter"],
+        "headline-md": ["Inter"],
+        "headline-xl-mobile": ["Inter"],
+        "body-sm": ["Inter"],
+        "headline-xl": ["Inter"],
+        "headline-lg": ["Inter"],
+        "label-sm": ["Inter"],
+        "label-lg": ["Inter"],
+        "headline-sm": ["Inter"],
+        "body-lg": ["Inter"],
+        "body-md": ["Inter"],
+        "label-md": ["Inter"]
+      },
+      "fontSize": {
+        "headline-lg-mobile": ["24px", {"lineHeight": "32px", "letterSpacing": "-0.015em", "fontWeight": "700"}],
+        "headline-md": ["24px", {"lineHeight": "32px", "letterSpacing": "-0.015em", "fontWeight": "600"}],
+        "headline-xl-mobile": ["30px", {"lineHeight": "38px", "letterSpacing": "-0.02em", "fontWeight": "800"}],
+        "body-sm": ["12px", {"lineHeight": "18px", "fontWeight": "400"}],
+        "headline-xl": ["44px", {"lineHeight": "54px", "letterSpacing": "-0.025em", "fontWeight": "800"}],
+        "headline-lg": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+        "label-sm": ["10px", {"lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "700"}],
+        "label-lg": ["14px", {"lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600"}],
+        "headline-sm": ["20px", {"lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "600"}],
+        "body-lg": ["16px", {"lineHeight": "26px", "fontWeight": "400"}],
+        "body-md": ["14px", {"lineHeight": "22px", "fontWeight": "400"}],
+        "label-md": ["12px", {"lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600"}]
+      }
+    }
+  }
+}</script></head><body class="min-h-screen bg-surface-container-lowest text-on-surface font-body-md text-body-md relative overflow-x-hidden flex flex-col justify-between selection:bg-primary-container selection:text-on-primary-container"><nav class="site-global-nav"><a class="brand" href="index.html">✦ AI HUB</a><a class="navlink" href="index.html">خانه</a><a class="navlink" href="platform.html">پلتفرم</a><a class="navlink" href="ai-models.html">مدل‌های هوش مصنوعی</a><a class="navlink" href="compare.html">مقایسه مدل‌ها</a><a class="navlink" href="polls.html">نظرسنجی‌ها</a><a class="navlink" href="gpt-4o.html">GPT‑4o</a><a class="navlink" href="claude-sonnet.html">Claude Sonnet</a><a class="navlink" href="account.html">حساب کاربری</a><a class="navlink" href="settings.html">تنظیمات</a><a class="navlink" href="login.html">ورود</a><a class="navlink" href="register.html">ثبت‌نام</a><a class="navlink" href="password-recovery.html">بازیابی رمز</a></nav><div class="pointer-events-none fixed inset-0 z-0"><div class="absolute -top-40 right-1/4 w-[600px] h-[600px] bg-primary/10 rounded-full blur-[140px]"></div><div class="absolute bottom-0 left-1/4 w-[500px] h-[500px] bg-secondary/10 rounded-full blur-[160px]"></div><div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top,transparent_0%,rgba(9,14,28,0.85)_100%)]"></div></div><header class="relative z-10 w-full bg-surface-container-lowest/60 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 max-w-7xl mx-auto px-margin-sm lg:px-margin flex items-center justify-between"><div class="flex items-center gap-space-sm"><div class="w-9 h-9 rounded-lg bg-surface-container-high flex items-center justify-center text-primary shadow-[0_0_16px_rgba(77,142,255,0.25)]"><span class="material-symbols-outlined text-[22px]">neurology</span></div><div class="flex flex-col"><span class="font-headline-sm text-headline-sm tracking-tight text-on-surface">AI HUB</span><span class="font-label-sm text-label-sm text-secondary tracking-widest uppercase">هوش محاسباتی</span></div></div><div class="flex items-center gap-space-md"><div class="hidden sm:flex items-center gap-space-xs px-space-sm py-1 rounded-full bg-surface-container-high/80 text-on-surface-variant"><span class="w-1.5 h-1.5 rounded-full bg-secondary shadow-[0_0_8px_#4cd7f6]"></span><span class="font-label-md text-label-md text-on-surface-variant">اتصال امن رمزنگاری‌شده</span></div><button class="flex items-center gap-space-xs px-space-sm py-1.5 rounded-lg bg-surface-container-high hover:bg-surface-variant text-on-surface-variant hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined text-[18px]">language</span><span class="font-label-md text-label-md">FA</span></button></div></div></header><main class="relative z-10 flex-1 flex flex-col items-center justify-center w-full max-w-7xl mx-auto px-margin-sm lg:px-margin py-space-xl"><div class="flex flex-col w-full">
+<div class="relative w-full max-w-4xl mx-auto py-space-md">
+<!-- Ambient photonic glow backdrop effects -->
+<div class="pointer-events-none absolute -top-20 -right-20 w-96 h-96 bg-primary-container/20 rounded-full blur-[100px]"></div>
+<div class="pointer-events-none absolute -bottom-24 -left-20 w-96 h-96 bg-secondary-container/15 rounded-full blur-[110px]"></div>
+<!-- Main Registration Console Card -->
+<div class="relative bg-surface-container/70 backdrop-blur-2xl rounded-xl shadow-2xl p-space-md sm:p-space-xl overflow-hidden">
+<!-- Subtle top telemetry bar -->
+<div class="flex items-center justify-between pb-space-md mb-space-lg text-on-surface-variant font-label-sm text-label-sm">
+<div class="flex items-center gap-space-xs text-secondary">
+<span class="w-2 h-2 rounded-full bg-secondary animate-pulse shadow-[0_0_8px_#4cd7f6]"></span>
+<span>درگاه عضویت امنیتی ۲۵۶-بیتی SHA</span>
+</div>
+<div class="flex items-center gap-space-sm font-label-md text-label-md">
+<span class="text-outline">سرور:</span>
+<span class="text-on-surface">IR-TEH-EDGE-01</span>
+</div>
+</div>
+<!-- Header Section -->
+<div class="text-center max-w-2xl mx-auto mb-space-xl">
+<div class="inline-flex items-center justify-center gap-space-xs px-space-md py-1 rounded-full bg-surface-container-high/90 text-secondary mb-space-sm shadow-sm">
+<span class="material-symbols-outlined text-[16px]">verified</span>
+<span class="font-label-md text-label-md">ثبت‌نام و عضویت هوشمند</span>
+</div>
+<h1 class="font-headline-xl text-headline-xl text-on-surface mb-space-xs tracking-tight">
+          ایجاد حساب کاربری جدید
+        </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+          به جامع‌ترین پلتفرم کشف، ارزیابی و مقایسه مدل‌های هوش مصنوعی بپیوندید
+        </p>
+</div>
+<!-- Demo State Simulator Alerts (Collapsible / Interactive Trigger) -->
+<div class="mb-space-lg p-space-md rounded-xl bg-surface-container-lowest/80">
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-label-md text-label-md text-on-surface-variant flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[18px]">bug_report</span>
+            پیش‌نمایش پیام‌های خطای سرور و موفقیت (شبیه‌ساز اعتبارسنجی)
+          </span>
+<span class="font-label-sm text-label-sm text-outline">حالت آزمایشی زنده</span>
+</div>
+<div class="flex flex-wrap gap-space-xs">
+<button class="px-space-sm py-1 rounded bg-error-container text-on-error-container font-label-sm text-label-sm hover:opacity-90 transition-opacity" onclick="showDemoAlert('err-user')" type="button">
+            خطای نام کاربری
+          </button>
+<button class="px-space-sm py-1 rounded bg-error-container text-on-error-container font-label-sm text-label-sm hover:opacity-90 transition-opacity" onclick="showDemoAlert('err-nid')" type="button">
+            خطای تکراری بودن کد ملی
+          </button>
+<button class="px-space-sm py-1 rounded bg-error-container text-on-error-container font-label-sm text-label-sm hover:opacity-90 transition-opacity" onclick="showDemoAlert('err-captcha')" type="button">
+            خطای کپچا
+          </button>
+<button class="px-space-sm py-1 rounded bg-secondary-container text-on-secondary-container font-label-sm text-label-sm hover:opacity-90 transition-opacity" onclick="triggerSuccessToast()" type="button">
+            شبیه‌سازی موفقیت
+          </button>
+</div>
+<!-- Dynamic Error Banner Container -->
+<div class="hidden mt-space-sm p-space-sm rounded-lg bg-error-container/80 text-on-error-container flex items-center justify-between text-body-sm font-body-sm shadow-sm" id="dynamic-error-box">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[18px]">error</span>
+<span id="dynamic-error-text">متن خطای آزمایشی</span>
+</div>
+<button class="text-on-error-container hover:opacity-75" onclick="document.getElementById('dynamic-error-box').classList.add('hidden')" type="button">
+<span class="material-symbols-outlined text-[16px]">close</span>
+</button>
+</div>
+</div>
+<!-- Registration Form -->
+<form class="space-y-space-lg" id="signup-form" onsubmit="event.preventDefault(); handleFormSubmit();">
+<!-- Grid for Dual Fields -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-lg">
+<!-- 1. Username Field -->
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<label class="font-label-lg text-label-lg text-on-surface flex items-center gap-space-xs" for="username">
+<span>نام کاربری</span>
+<span class="text-error">*</span>
+</label>
+<span class="font-label-sm text-label-sm text-primary flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">info</span>
+                نام کاربری باید یکتا باشد
+              </span>
+</div>
+<div class="relative">
+<input class="w-full bg-surface-container-high text-on-surface placeholder-outline font-body-md text-body-md rounded-lg py-2.5 px-space-md pl-10 focus:outline-none focus:ring-2 focus:ring-secondary transition-all" dir="ltr" id="username" placeholder="ai_engineer_2025" required="" type="text"/>
+<span class="material-symbols-outlined absolute left-3 top-3 text-outline text-[20px]">alternate_email</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">مجاز: حروف انگلیسی، اعداد و زیرخط (_) با حداقل ۴ کاراکتر</p>
+</div>
+<!-- 2. National ID Number Field -->
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<label class="font-label-lg text-label-lg text-on-surface flex items-center gap-space-xs" for="nationalId">
+<span>کد ملی ۱۰ رقمی</span>
+<span class="text-error">*</span>
+</label>
+<span class="font-label-sm text-label-sm text-secondary bg-surface-container-high px-space-xs py-0.5 rounded">
+                الگوریتم رقم کنترلی
+              </span>
+</div>
+<div class="relative">
+<input class="w-full bg-surface-container-high text-on-surface placeholder-outline font-body-md text-body-md rounded-lg py-2.5 px-space-md pl-10 focus:outline-none focus:ring-2 focus:ring-secondary transition-all tracking-wider" dir="ltr" id="nationalId" maxlength="10" oninput="validateNationalIdInput(this)" placeholder="۰۰۱۲۳۴۵۶۷۸" required="" type="text"/>
+<span class="material-symbols-outlined absolute left-3 top-3 text-outline text-[20px]">badge</span>
+</div>
+<div class="flex items-center justify-between font-body-sm text-body-sm">
+<span class="text-on-surface-variant">بررسی یکتایی و الگوریتم رقم کنترلی کد ملی</span>
+<span class="text-outline font-label-sm text-label-sm" id="nid-status">۱۰ رقم</span>
+</div>
+</div>
+</div>
+<!-- Password & Confirm Password Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-lg">
+<!-- 3. Password Field -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-lg text-label-lg text-on-surface flex items-center gap-space-xs" for="password">
+<span>کلمه عبور</span>
+<span class="text-error">*</span>
+</label>
+<div class="relative">
+<input class="w-full bg-surface-container-high text-on-surface placeholder-outline font-body-md text-body-md rounded-lg py-2.5 px-space-md pl-10 focus:outline-none focus:ring-2 focus:ring-secondary transition-all" dir="ltr" id="password" oninput="checkPasswordStrength(this.value)" placeholder="••••••••••••" required="" type="password"/>
+<button class="absolute left-3 top-2.5 text-outline hover:text-on-surface transition-colors" onclick="togglePasswordVisibility('password', this)" type="button">
+<span class="material-symbols-outlined text-[20px]">visibility</span>
+</button>
+</div>
+<!-- Password Strength Bar -->
+<div class="mt-1">
+<div class="flex items-center justify-between mb-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant">میزان امنیت رمز:</span>
+<span class="font-label-sm text-label-sm text-outline" id="strength-label">وارد نشده</span>
+</div>
+<div class="w-full h-1.5 bg-surface-container-lowest rounded-full overflow-hidden flex gap-0.5">
+<div class="h-full w-1/3 bg-outline/30 transition-colors duration-300" id="bar-1"></div>
+<div class="h-full w-1/3 bg-outline/30 transition-colors duration-300" id="bar-2"></div>
+<div class="h-full w-1/3 bg-outline/30 transition-colors duration-300" id="bar-3"></div>
+</div>
+</div>
+<!-- Security criteria checklist -->
+<div class="p-space-xs rounded bg-surface-container-low mt-1 space-y-1 font-body-sm text-body-sm">
+<div class="flex items-center gap-space-xs text-outline" id="rule-length">
+<span class="material-symbols-outlined text-[16px]">check_circle</span>
+<span>حداقل ۸ کاراکتر</span>
+</div>
+<div class="flex items-center gap-space-xs text-outline" id="rule-mix">
+<span class="material-symbols-outlined text-[16px]">check_circle</span>
+<span>شامل حروف بزرگ، کوچک و عدد</span>
+</div>
+<div class="flex items-center gap-space-xs text-outline" id="rule-special">
+<span class="material-symbols-outlined text-[16px]">check_circle</span>
+<span>شامل نماد خاص (!@#$%^&*)</span>
+</div>
+</div>
+</div>
+<!-- 4. Confirm Password Field -->
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<label class="font-label-lg text-label-lg text-on-surface flex items-center gap-space-xs" for="confirmPassword">
+<span>تکرار کلمه عبور</span>
+<span class="text-error">*</span>
+</label>
+<span class="font-label-sm text-label-sm text-outline" id="match-badge">
+                تطابق کامل با کلمه عبور
+              </span>
+</div>
+<div class="relative">
+<input class="w-full bg-surface-container-high text-on-surface placeholder-outline font-body-md text-body-md rounded-lg py-2.5 px-space-md pl-10 focus:outline-none focus:ring-2 focus:ring-secondary transition-all" dir="ltr" id="confirmPassword" oninput="validatePasswordMatch()" placeholder="••••••••••••" required="" type="password"/>
+<button class="absolute left-3 top-2.5 text-outline hover:text-on-surface transition-colors" onclick="togglePasswordVisibility('confirmPassword', this)" type="button">
+<span class="material-symbols-outlined text-[20px]">visibility</span>
+</button>
+</div>
+<div class="flex items-center gap-space-xs font-body-sm text-body-sm text-outline mt-1" id="match-status-msg">
+<span class="material-symbols-outlined text-[16px]">lock_reset</span>
+<span>کلمه عبور وارد شده در هر دو بخش باید دقیقاً یکسان باشد.</span>
+</div>
+<!-- Informational security card -->
+<div class="mt-auto p-space-sm rounded-lg bg-surface-container-lowest flex items-start gap-space-xs text-on-surface-variant font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-secondary text-[20px] shrink-0 mt-0.5">shield</span>
+<p>
+                اطلاعات امنیتی و احراز هویت شما از طریق الگوریتم‌های درهم‌ساز نامتقارن (Argon2id) رمزنگاری گردیده و دسترسی به آن برای هیچ شخص ثالثی مقدور نیست.
+              </p>
+</div>
+</div>
+</div>
+<!-- 5. Interactive Visual CAPTCHA Security Section -->
+<div class="p-space-md rounded-xl bg-surface-container-low shadow-sm">
+<div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-space-sm mb-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-[20px]">security</span>
+<span class="font-label-lg text-label-lg text-on-surface">کد امنیتی ضد ربات (CAPTCHA)</span>
+</div>
+<span class="font-label-sm text-label-sm text-outline">سیستم تشخیص رفتار انسان</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-space-md items-center">
+<!-- Graphic Distorted Box -->
+<div class="md:col-span-6 flex items-center gap-space-xs">
+<div class="relative w-full h-14 bg-surface-container-lowest rounded-lg overflow-hidden flex items-center justify-center px-4 select-none shadow-inner">
+<!-- Distorted background grid & noise lines -->
+<svg class="absolute inset-0 w-full h-full opacity-30 pointer-events-none" xmlns="http://www.w3.org/2000/svg">
+<line class="text-secondary" stroke="currentColor" stroke-width="1.5" x1="0" x2="100%" y1="12" y2="40"></line>
+<line class="text-primary" stroke="currentColor" stroke-width="1" x1="0" x2="100%" y1="48" y2="8"></line>
+<circle class="text-outline" cx="25%" cy="30%" fill="none" r="18" stroke="currentColor" stroke-width="1"></circle>
+<circle class="text-tertiary" cx="75%" cy="65%" fill="none" r="22" stroke="currentColor" stroke-width="1"></circle>
+</svg>
+<!-- Stylized Distorted Numbers -->
+<div class="relative z-10 flex items-center justify-center gap-3 tracking-widest text-on-surface font-headline-lg text-headline-lg font-black" id="captcha-display">
+<span class="transform -rotate-12 translate-y-1 text-primary">۷</span>
+<span class="transform rotate-6 -translate-y-0.5 text-secondary">۴</span>
+<span class="transform -rotate-6 translate-y-1 text-tertiary">۸</span>
+<span class="transform rotate-12 -translate-y-1 text-primary-fixed">۹</span>
+<span class="transform -rotate-3 translate-y-0 text-secondary-fixed">۲</span>
+</div>
+</div>
+<!-- Controls: Audio Listen & Regenerate -->
+<div class="flex items-center gap-1 shrink-0">
+<button class="w-10 h-10 rounded-lg bg-surface-container-high hover:bg-surface-variant text-on-surface-variant hover:text-secondary flex items-center justify-center transition-colors" onclick="playAudioCaptcha()" title="پخش صوتی کد" type="button">
+<span class="material-symbols-outlined text-[20px]">volume_up</span>
+</button>
+<button class="flex items-center gap-1 px-space-sm h-10 rounded-lg bg-surface-container-high hover:bg-surface-variant text-on-surface-variant hover:text-on-surface transition-colors font-label-md text-label-md" id="btn-refresh-captcha" onclick="refreshCaptcha()" title="تولید مجدد کپچا" type="button">
+<span class="material-symbols-outlined text-[18px]" id="captcha-spin-icon">sync</span>
+<span class="hidden sm:inline">تولید مجدد کپچا</span>
+</button>
+</div>
+</div>
+<!-- CAPTCHA Input Field -->
+<div class="md:col-span-6">
+<div class="relative">
+<input class="w-full bg-surface-container-high text-on-surface placeholder-outline font-body-md text-body-md rounded-lg py-3 px-space-md pl-10 focus:outline-none focus:ring-2 focus:ring-secondary transition-all text-center tracking-widest" dir="ltr" id="captchaInput" maxlength="5" placeholder="کد امنیتی را وارد کنید" required="" type="text"/>
+<span class="material-symbols-outlined absolute left-3 top-3 text-outline text-[20px]">pin</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Terms and Conditions Checkbox -->
+<div class="flex items-start gap-space-xs pt-space-xs">
+<div class="flex items-center h-6">
+<input class="w-4 h-4 rounded bg-surface-container-high text-primary-container focus:ring-secondary cursor-pointer" id="terms" required="" type="checkbox"/>
+</div>
+<label class="font-body-md text-body-md text-on-surface-variant cursor-pointer select-none" for="terms">
+<a class="text-primary hover:underline font-label-lg text-label-lg" data-path="terms-of-service" href="#">قوانین و حریم خصوصی سامانه هوش مصنوعی AI HUB</a>
+            را مطالعه کرده و تمامی مفاد فنی و امنیتی آن را می‌پذیرم.
+          </label>
+</div>
+<!-- Prominent Primary Submit Button -->
+<div class="pt-space-xs">
+<button class="group relative w-full py-3.5 px-space-lg rounded-xl text-on-primary font-headline-sm text-headline-sm font-bold shadow-lg overflow-hidden transition-all duration-300 transform active:scale-[0.99] bg-gradient-to-r from-primary-container via-secondary-container to-tertiary-container hover:shadow-[0_0_30px_rgba(77,142,255,0.45)]" id="submit-button" type="submit">
+<span class="relative z-10 flex items-center justify-center gap-space-xs">
+<span>ثبت‌نام و ساخت حساب</span>
+<span class="material-symbols-outlined text-[24px] transform group-hover:-translate-x-1 transition-transform">arrow_left_alt</span>
+</span>
+<div class="absolute inset-0 bg-white/10 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+</button>
+</div>
+</form>
+<!-- Bottom Navigation Link -->
+<div class="mt-space-xl pt-space-md flex flex-col sm:flex-row items-center justify-center gap-space-xs text-center font-body-md text-body-md text-on-surface-variant">
+<span>قبلاً ثبت‌نام کرده‌اید؟</span>
+<a class="text-secondary hover:text-primary font-label-lg text-label-lg flex items-center gap-1 transition-colors" data-path="login" href="#">
+<span>ورود به حساب کاربری</span>
+<span class="material-symbols-outlined text-[16px]">login</span>
+</a>
+</div>
+</div>
+<!-- Micro Metadata Console Footer -->
+<div class="mt-space-md px-space-sm flex flex-col sm:flex-row items-center justify-between text-outline font-label-sm text-label-sm gap-space-xs">
+<div>پروتکل ارتباطی: TLS 1.3 / رمزنگاری پایانه به پایانه E2EE</div>
+<div class="flex items-center gap-space-md">
+<span>پایش ترافیک زنده</span>
+<span class="inline-block w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span>سامانه آماده خدمت</span>
+</div>
+</div>
+</div>
+<!-- Success Notification Toast (Interactive Demo Toast) -->
+<div class="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 transform translate-y-32 opacity-0 pointer-events-none transition-all duration-500 ease-out flex items-center gap-space-md py-3.5 px-space-lg rounded-xl bg-surface-container-high/95 backdrop-blur-xl text-on-surface shadow-[0_10px_35px_rgba(0,0,0,0.5)]" id="success-toast">
+<div class="w-8 h-8 rounded-full bg-secondary/20 flex items-center justify-center text-secondary shrink-0 shadow-[0_0_12px_#4cd7f6]">
+<span class="material-symbols-outlined text-[20px]">check_circle</span>
+</div>
+<div class="flex flex-col text-right">
+<span class="font-label-lg text-label-lg text-on-surface">عملیات موفق</span>
+<span class="font-body-md text-body-md text-on-surface-variant">ثبت‌نام شما با موفقیت انجام شد! در حال انتقال به صفحه ورود...</span>
+</div>
+</div>
+</div>
+<script>
+  // Toggle password visibility
+  function togglePasswordVisibility(fieldId, btn) {
+    const input = document.getElementById(fieldId);
+    const icon = btn.querySelector('.material-symbols-outlined');
+    if (input.type === 'password') {
+      input.type = 'text';
+      icon.textContent = 'visibility_off';
+    } else {
+      input.type = 'password';
+      icon.textContent = 'visibility';
+    }
+  }
+
+  // Live password strength indicator
+  function checkPasswordStrength(password) {
+    const bar1 = document.getElementById('bar-1');
+    const bar2 = document.getElementById('bar-2');
+    const bar3 = document.getElementById('bar-3');
+    const label = document.getElementById('strength-label');
+    const ruleLen = document.getElementById('rule-length');
+    const ruleMix = document.getElementById('rule-mix');
+    const ruleSpec = document.getElementById('rule-special');
+
+    const hasLen = password.length >= 8;
+    const hasMix = /[a-z]/.test(password) && /[A-Z]/.test(password) && /\d/.test(password);
+    const hasSpec = /[!@#$%^&*(),.?":{}|<>]/.test(password);
+
+    // Update rule indicators
+    updateRule(ruleLen, hasLen);
+    updateRule(ruleMix, hasMix);
+    updateRule(ruleSpec, hasSpec);
+
+    let score = 0;
+    if (hasLen) score++;
+    if (hasMix) score++;
+    if (hasSpec) score++;
+
+    bar1.className = 'h-full w-1/3 transition-colors duration-300 ' + (score >= 1 ? 'bg-error' : 'bg-outline/30');
+    bar2.className = 'h-full w-1/3 transition-colors duration-300 ' + (score >= 2 ? 'bg-primary' : 'bg-outline/30');
+    bar3.className = 'h-full w-1/3 transition-colors duration-300 ' + (score === 3 ? 'bg-secondary' : 'bg-outline/30');
+
+    if (score === 0) {
+      label.textContent = 'وارد نشده';
+      label.className = 'font-label-sm text-label-sm text-outline';
+    } else if (score === 1) {
+      label.textContent = 'ضعیف';
+      label.className = 'font-label-sm text-label-sm text-error';
+    } else if (score === 2) {
+      label.textContent = 'متوسط';
+      label.className = 'font-label-sm text-label-sm text-primary';
+    } else {
+      label.textContent = 'قوی';
+      label.className = 'font-label-sm text-label-sm text-secondary';
+    }
+
+    validatePasswordMatch();
+  }
+
+  function updateRule(element, passed) {
+    if (passed) {
+      element.className = 'flex items-center gap-space-xs text-secondary';
+    } else {
+      element.className = 'flex items-center gap-space-xs text-outline';
+    }
+  }
+
+  // Password match checker
+  function validatePasswordMatch() {
+    const p1 = document.getElementById('password').value;
+    const p2 = document.getElementById('confirmPassword').value;
+    const badge = document.getElementById('match-badge');
+    const msg = document.getElementById('match-status-msg');
+
+    if (!p2) {
+      badge.textContent = 'تطابق کامل با کلمه عبور';
+      badge.className = 'font-label-sm text-label-sm text-outline';
+      return;
+    }
+
+    if (p1 === p2) {
+      badge.textContent = 'کلمه عبور مطابقت دارد ✓';
+      badge.className = 'font-label-sm text-label-sm text-secondary';
+      msg.innerHTML = '<span class="material-symbols-outlined text-[16px] text-secondary">verified</span><span class="text-secondary">تطابق با موفقیت تایید شد.</span>';
+    } else {
+      badge.textContent = 'عدم تطابق رمز عبور ✕';
+      badge.className = 'font-label-sm text-label-sm text-error';
+      msg.innerHTML = '<span class="material-symbols-outlined text-[16px] text-error">warning</span><span class="text-error">رمزهای وارد شده همخوانی ندارند.</span>';
+    }
+  }
+
+  // Iranian National ID validation indicator
+  function validateNationalIdInput(input) {
+    const val = input.value.replace(/\D/g, '');
+    input.value = val;
+    const status = document.getElementById('nid-status');
+    
+    if (val.length === 10) {
+      status.textContent = 'طول مجاز ۱۰ رقمی تایید شد';
+      status.className = 'text-secondary font-label-sm text-label-sm';
+    } else {
+      status.textContent = (10 - val.length) + ' رقم باقی‌مانده';
+      status.className = 'text-outline font-label-sm text-label-sm';
+    }
+  }
+
+  // Interactive CAPTCHA generation
+  const captchaList = [
+    ['۷', '۴', '۸', '۹', '۲'],
+    ['۵', '۱', '۳', '۶', '۸'],
+    ['۹', '۲', '۴', '۰', '۷'],
+    ['۳', '۸', '۱', '۵', '۴']
+  ];
+  let captchaIndex = 0;
+
+  function refreshCaptcha() {
+    const icon = document.getElementById('captcha-spin-icon');
+    icon.classList.add('animate-spin');
+    setTimeout(() => {
+      icon.classList.remove('animate-spin');
+    }, 600);
+
+    captchaIndex = (captchaIndex + 1) % captchaList.length;
+    const chars = captchaList[captchaIndex];
+    const display = document.getElementById('captcha-display');
+    const rotations = ['-rotate-12 translate-y-1', 'rotate-6 -translate-y-0.5', '-rotate-6 translate-y-1', 'rotate-12 -translate-y-1', '-rotate-3 translate-y-0'];
+    const colors = ['text-primary', 'text-secondary', 'text-tertiary', 'text-primary-fixed', 'text-secondary-fixed'];
+
+    display.innerHTML = chars.map((ch, idx) => 
+      `<span class="transform ${rotations[idx]} ${colors[idx]}">${ch}</span>`
+    ).join('');
+    
+    document.getElementById('captchaInput').value = '';
+  }
+
+  function playAudioCaptcha() {
+    const chars = captchaList[captchaIndex];
+    if ('speechSynthesis' in window) {
+      const utterance = new SpeechSynthesisUtterance(chars.join(' , '));
+      utterance.lang = 'fa-IR';
+      utterance.rate = 0.8;
+      window.speechSynthesis.speak(utterance);
+    } else {
+      alert('کد امنیتی صوتی: ' + chars.join(' - '));
+    }
+  }
+
+  // Error simulation
+  function showDemoAlert(type) {
+    const box = document.getElementById('dynamic-error-box');
+    const text = document.getElementById('dynamic-error-text');
+    box.classList.remove('hidden');
+
+    if (type === 'err-user') {
+      text.textContent = 'این نام کاربری قبلاً استفاده شده است';
+    } else if (type === 'err-nid') {
+      text.textContent = 'با این کد ملی قبلاً حساب کاربری ایجاد شده است';
+    } else if (type === 'err-captcha') {
+      text.textContent = 'کد امنیتی کپچا اشتباه وارد شده است';
+    }
+  }
+
+  // Success toast trigger
+  function triggerSuccessToast() {
+    const toast = document.getElementById('success-toast');
+    toast.classList.remove('translate-y-32', 'opacity-0', 'pointer-events-none');
+    toast.classList.add('translate-y-0', 'opacity-100');
+
+    setTimeout(() => {
+      toast.classList.add('translate-y-32', 'opacity-0', 'pointer-events-none');
+      toast.classList.remove('translate-y-0', 'opacity-100');
+    }, 4500);
+  }
+
+  // Handle final form submit
+  function handleFormSubmit() {
+    triggerSuccessToast();
+  }
+</script></main><footer class="relative z-10 w-full bg-surface-container-lowest/70 backdrop-blur-xl py-space-md"><div class="max-w-7xl mx-auto px-margin-sm lg:px-margin flex flex-col sm:flex-row items-center justify-between gap-space-md text-on-surface-variant"><div class="flex items-center gap-space-xs text-on-surface-variant"><span class="material-symbols-outlined text-secondary text-[18px]">verified_user</span><span class="font-label-md text-label-md">رمزنگاری استاندارد SSL ۲۵۶ بیتی | سطح امنیت سازمانی</span></div><div class="flex items-center gap-space-lg text-on-surface-variant"><a class="font-label-md text-label-md hover:text-on-surface transition-colors" data-path="privacy-policy" href="#">حریم خصوصی</a><a class="font-label-md text-label-md hover:text-on-surface transition-colors" data-path="terms-of-service" href="#">قوانین و مقررات</a><a class="font-label-md text-label-md hover:text-on-surface transition-colors" data-path="security-protocol" href="#">پروتکل امنیت</a></div><div class="font-label-sm text-label-sm text-outline">© ۲۰۲۵ پایگاه هوش مصنوعی AI HUB. تمامی حقوق محفوظ است.</div></div></footer><footer style="padding:24px 16px;text-align:center;background:#090e1c;color:#9aa5bd;font:12px Inter,sans-serif;border-top:1px solid rgba(173,198,255,.15)"><div style="margin-bottom:10px">AI HUB · فهرست صفحات</div><a style="color:#adc6ff;text-decoration:none" href="index.html">خانه</a> · <a style="color:#adc6ff;text-decoration:none" href="platform.html">پلتفرم</a> · <a style="color:#adc6ff;text-decoration:none" href="ai-models.html">مدل‌های هوش مصنوعی</a> · <a style="color:#adc6ff;text-decoration:none" href="compare.html">مقایسه مدل‌ها</a> · <a style="color:#adc6ff;text-decoration:none" href="polls.html">نظرسنجی‌ها</a> · <a style="color:#adc6ff;text-decoration:none" href="gpt-4o.html">GPT‑4o</a> · <a style="color:#adc6ff;text-decoration:none" href="claude-sonnet.html">Claude Sonnet</a> · <a style="color:#adc6ff;text-decoration:none" href="account.html">حساب کاربری</a> · <a style="color:#adc6ff;text-decoration:none" href="settings.html">تنظیمات</a> · <a style="color:#adc6ff;text-decoration:none" href="login.html">ورود</a> · <a style="color:#adc6ff;text-decoration:none" href="register.html">ثبت‌نام</a> · <a style="color:#adc6ff;text-decoration:none" href="password-recovery.html">بازیابی رمز</a></footer></body></html>
