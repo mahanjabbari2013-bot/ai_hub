@@ -815,4 +815,17 @@
       }
     });
   })();
+<script>
+document.querySelectorAll('.model-card[data-detail-url]').forEach(card => {
+    card.addEventListener('click', function(event) {
+        if (event.target.closest('button, a')) {
+            return;
+        }
+        window.location.href = this.dataset.detailUrl;
+    });
+});
+</script>
+
+</body>
+</html>            
 </script></main></div><nav class="lg:hidden fixed bottom-0 inset-x-0 h-16 bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_-1px_8px_rgba(0,0,0,0.04)] z-50 flex items-center justify-around px-space-sm" data-active-classes="text-primary font-bold"><a class="flex flex-col items-center gap-0.5 text-on-surface-variant hover:text-on-surface transition-colors" data-path="home" href="index.html"><span class="material-symbols-outlined text-[20px]">home</span><span class="font-label-sm text-label-sm">خانه</span></a><a aria-current="page" class="flex flex-col items-center gap-0.5 transition-colors text-primary font-bold" data-path="ai-models" href="ai-models.html"><span class="material-symbols-outlined text-[20px]">smart_toy</span><span class="font-label-sm text-label-sm">مدل‌ها</span></a><a class="flex flex-col items-center gap-0.5 text-on-surface-variant hover:text-on-surface transition-colors" data-path="compare-ai" href="compare.html"><span class="material-symbols-outlined text-[20px]">compare_arrows</span><span class="font-label-sm text-label-sm">مقایسه</span></a><a class="flex flex-col items-center gap-0.5 text-on-surface-variant hover:text-on-surface transition-colors" data-path="favorites" href="account.html"><span class="material-symbols-outlined text-[20px]">favorite</span><span class="font-label-sm text-label-sm">علاقه‌مندی</span></a><a class="flex flex-col items-center gap-0.5 text-on-surface-variant hover:text-on-surface transition-colors" data-path="my-account" href="account.html"><span class="material-symbols-outlined text-[20px]">person</span><span class="font-label-sm text-label-sm">حساب</span></a></nav><footer style="padding:24px 16px;text-align:center;background:#090e1c;color:#9aa5bd;font:12px Inter,sans-serif;border-top:1px solid rgba(173,198,255,.15)"><div style="margin-bottom:10px">AI HUB · فهرست صفحات</div><a style="color:#adc6ff;text-decoration:none" href="index.html">خانه</a> · <a style="color:#adc6ff;text-decoration:none" href="platform.html">پلتفرم</a> · <a style="color:#adc6ff;text-decoration:none" href="ai-models.html">مدل‌های هوش مصنوعی</a> · <a style="color:#adc6ff;text-decoration:none" href="compare.html">مقایسه مدل‌ها</a> · <a style="color:#adc6ff;text-decoration:none" href="polls.html">نظرسنجی‌ها</a> · <a style="color:#adc6ff;text-decoration:none" href="gpt-4o.html">GPT‑4o</a> · <a style="color:#adc6ff;text-decoration:none" href="claude-sonnet.html">Claude Sonnet</a> · <a style="color:#adc6ff;text-decoration:none" href="account.html">حساب کاربری</a> · <a style="color:#adc6ff;text-decoration:none" href="settings.html">تنظیمات</a> · <a style="color:#adc6ff;text-decoration:none" href="login.html">ورود</a> · <a style="color:#adc6ff;text-decoration:none" href="register.html">ثبت‌نام</a> · <a style="color:#adc6ff;text-decoration:none" href="password-recovery.html">بازیابی رمز</a></footer></body></html>
